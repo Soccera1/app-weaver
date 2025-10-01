@@ -1,0 +1,5 @@
+{
+  "name": "App Weaver",
+  "description": "Generate an app mockup from a text prompt using Gemini. If you like the mockup, generate a prototype implementation in either React+TypeScript or a single HTML file.",
+  "requestFramePermissions": []
+}
