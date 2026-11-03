@@ -34,7 +34,7 @@ const PromptInput: React.FC<PromptInputProps> = ({ onGenerate, isLoading }) => {
 
   return (
     <section className="w-full max-w-2xl text-center">
-      <h2 className="text-2xl font-semibold text-slate-100 mb-4">1. Describe Your App Idea</h2>
+      <h2 className="text-2xl font-semibold text-slate-100 mb-4"><span aria-hidden="true">💡</span> 1. Describe Your App Idea</h2>
       <form onSubmit={handleSubmit} className="flex flex-col gap-4">
         <textarea
           value={prompt}

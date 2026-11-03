@@ -42,7 +42,7 @@ const MockupDisplay: React.FC<MockupDisplayProps> = ({
 }) => {
   return (
     <section className="w-full max-w-2xl text-center flex flex-col items-center">
-      <h2 className="text-2xl font-semibold text-slate-100 mb-4">2. Review Your Mockup</h2>
+      <h2 className="text-2xl font-semibold text-slate-100 mb-4"><span aria-hidden="true">🎨</span> 2. Review Your Mockup</h2>
       <div className="relative w-[270px] h-[480px] bg-slate-800 rounded-2xl p-3 border border-slate-700 shadow-2xl shadow-indigo-900/20 flex items-center justify-center">
         {isLoading ? (
           <div className="flex flex-col items-center gap-2 text-slate-400">

@@ -55,7 +55,7 @@ const CodeDisplay: React.FC<CodeDisplayProps> = ({ code, isLoading }) => {
 
   return (
     <section className="w-full max-w-4xl">
-      <h2 className="text-2xl font-semibold text-slate-100 mb-4 text-center">3. Your Generated Code</h2>
+      <h2 className="text-2xl font-semibold text-slate-100 mb-4 text-center"><span aria-hidden="true">💻</span> 3. Your Generated Code</h2>
       <div className="bg-slate-800 rounded-lg border border-slate-700 shadow-2xl shadow-indigo-900/20 overflow-hidden">
         <div className="flex items-center bg-slate-900/50 border-b border-slate-700 px-2 min-h-[57px]">
           <div className="flex-shrink-0 mr-4 ml-2 p-2">
